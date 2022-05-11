@@ -12,7 +12,7 @@ API url: https://momapi.megankrenbrink.com/api/products/read.php
 
 - To see one category at a time use: ?filter=category
 
-_Category Filter Options:
+Category Filter Options:
 - bakery
 - dairy
 - frozen
@@ -22,6 +22,7 @@ _Category Filter Options:
 - snacks
 
 Example url:
+
 Filter to show only produce items --
 https://momapi.megankrenbrink.com/api/products/read.php?filter=produce
 
@@ -30,7 +31,7 @@ https://momapi.megankrenbrink.com/api/products/read.php?filter=produce
 
 - Can sort certain table columns from ascending or descending order
 
-_Sort Options:
+Sort Options:
 - id-asc
 - id-desc
 - name-asc
@@ -65,6 +66,7 @@ https://momapi.megankrenbrink.com/api/products/read.php?keyword=banana
 - sku=10006
 
 Example url:
+
 Look for item with sku # 10006
 https://momapi.megankrenbrink.com/api/products/read.php?sku=10006
 
