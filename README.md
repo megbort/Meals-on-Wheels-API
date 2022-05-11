@@ -2,17 +2,17 @@
 Products API created for a grocery store app called "Meals on Mules"
 --------------------------------------------------------------------
 
-##DOCUMENTATION##
+**DOCUMENTATION**
 
 API url: https://momapi.megankrenbrink.com/api/products/read.php
 
 **Parameters 🔽🔽🔽🔽**
 
-
 **Filter Categories**
-To see one category at a time use: ?filter=category
 
-Category Filter Options:
+- To see one category at a time use: ?filter=category
+
+_Category Filter Options:
 - bakery
 - dairy
 - frozen
@@ -27,9 +27,10 @@ https://momapi.megankrenbrink.com/api/products/read.php?filter=produce
 
 
 **Sort Products**
-Can sort certain table columns from ascending or descending order
 
-Sort Options:
+- Can sort certain table columns from ascending or descending order
+
+_Sort Options:
 - id-asc
 - id-desc
 - name-asc
@@ -42,22 +43,26 @@ Sort Options:
 - retail-desc
 
 Example url:
-Sort by sku in ascending order --
+
+- Sort by sku in ascending order 
 https://momapi.megankrenbrink.com/api/products/read.php?sort=sku-asc
 
 
 **Keyword Search**
+
 - Enter a keyword to search for the ‘name’ of a product.
 - keyword=banana
 
 Example url:
-Look for products with ‘banana’ in the name
+
+- Look for products with ‘banana’ in the name
 https://momapi.megankrenbrink.com/api/products/read.php?keyword=banana
 
 
 **SKU Filter**
-Enter a sku# to look at specific products
-sku=10006
+
+- Enter a sku# to look at specific products
+- sku=10006
 
 Example url:
 Look for item with sku # 10006
@@ -65,8 +70,10 @@ https://momapi.megankrenbrink.com/api/products/read.php?sku=10006
 
 
 **NOTES**:
-YES you can combine different parameters
+
+- YES you can combine different parameters
 
 Example url:
-Show only bakery items and sort by retail (price) in ascending order
+
+- Show only bakery items and sort by retail (price) in ascending order
 https://momapi.megankrenbrink.com/api/products/read.php?filter=bakery&sort=retail-asc
