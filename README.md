@@ -1,7 +1,7 @@
 # Meals-on-Wheels-API
 Products API created for a grocery store app called "Meals on Mules"
 --------------------------------------------------------------------
-
+--------------------------------------------------------------------
 **DOCUMENTATION**
 
 API url: https://momapi.megankrenbrink.com/api/products/read.php
@@ -26,6 +26,7 @@ Example url:
 Filter to show only produce items --
 https://momapi.megankrenbrink.com/api/products/read.php?filter=produce
 
+--------------------------------------------------------------------
 
 **Sort Products**
 
@@ -48,6 +49,7 @@ Example url:
 - Sort by sku in ascending order 
 https://momapi.megankrenbrink.com/api/products/read.php?sort=sku-asc
 
+--------------------------------------------------------------------
 
 **Keyword Search**
 
@@ -59,6 +61,7 @@ Example url:
 - Look for products with ‘banana’ in the name
 https://momapi.megankrenbrink.com/api/products/read.php?keyword=banana
 
+--------------------------------------------------------------------
 
 **SKU Filter**
 
