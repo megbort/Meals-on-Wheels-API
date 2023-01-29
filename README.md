@@ -4,8 +4,6 @@ Products API created for a grocery store app called "Meals on Mules"
 --------------------------------------------------------------------
 **DOCUMENTATION**
 
-API url: https://momapi.megankrenbrink.com/api/products/read.php
-
 **Parameters 🔽🔽🔽🔽**
 
 **Filter Categories**
@@ -23,7 +21,8 @@ Category Filter Options:
 
 Example:
 
-Filter to show only produce items --
+Filter to show only produce items
+
 /api/products/read.php?filter=produce
 
 --------------------------------------------------------------------
@@ -47,6 +46,7 @@ Sort Options:
 Example:
 
 - Sort by sku in ascending order 
+
 /api/products/read.php?sort=sku-asc
 
 --------------------------------------------------------------------
@@ -59,6 +59,7 @@ Example:
 Example:
 
 - Look for products with ‘banana’ in the name
+
 /api/products/read.php?keyword=banana
 
 --------------------------------------------------------------------
@@ -81,4 +82,5 @@ Look for item with sku # 10006
 Example:
 
 - Show only bakery items and sort by retail (price) in ascending order
+
 /api/products/read.php?filter=bakery&sort=retail-asc
