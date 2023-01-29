@@ -21,10 +21,10 @@ Category Filter Options:
 - seafood
 - snacks
 
-Example url:
+Example:
 
 Filter to show only produce items --
-https://momapi.megankrenbrink.com/api/products/read.php?filter=produce
+/api/products/read.php?filter=produce
 
 --------------------------------------------------------------------
 
@@ -44,10 +44,10 @@ Sort Options:
 - retail-asc
 - retail-desc
 
-Example url:
+Example:
 
 - Sort by sku in ascending order 
-https://momapi.megankrenbrink.com/api/products/read.php?sort=sku-asc
+/api/products/read.php?sort=sku-asc
 
 --------------------------------------------------------------------
 
@@ -56,10 +56,10 @@ https://momapi.megankrenbrink.com/api/products/read.php?sort=sku-asc
 - Enter a keyword to search for the ‘name’ of a product.
 - keyword=banana
 
-Example url:
+Example:
 
 - Look for products with ‘banana’ in the name
-https://momapi.megankrenbrink.com/api/products/read.php?keyword=banana
+/api/products/read.php?keyword=banana
 
 --------------------------------------------------------------------
 
@@ -68,17 +68,17 @@ https://momapi.megankrenbrink.com/api/products/read.php?keyword=banana
 - Enter a sku# to look at specific products
 - sku=10006
 
-Example url:
+Example:
 
 Look for item with sku # 10006
-https://momapi.megankrenbrink.com/api/products/read.php?sku=10006
+/api/products/read.php?sku=10006
 
 
 **NOTES**:
 
 - YES you can combine different parameters
 
-Example url:
+Example:
 
 - Show only bakery items and sort by retail (price) in ascending order
-https://momapi.megankrenbrink.com/api/products/read.php?filter=bakery&sort=retail-asc
+/api/products/read.php?filter=bakery&sort=retail-asc
